@@ -22,7 +22,6 @@ int calc(void) {
 		res=res*10+(c-'0');
 		c = getchar();
 	    }
-	    ungetc(c, stdin);
     }
 
     return res;
